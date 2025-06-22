@@ -22,3 +22,6 @@ body{
   background-color: #09090B;
 
 }
+.no-scorllbar{
+  scrollbar-width: none;
+}

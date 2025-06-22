@@ -52,7 +52,7 @@ function Navbar() {
   
     <button
       onClick={openSignIn}
-      className='px-4 py-1 sm:px-7 sm:py-2 bg-secondary hover:bg-secondary-dull transition rounded-full font-medium cursor-pointer'
+      className='px-4 bg-primary py-1 sm:px-7 sm:py-2 bg-secondary hover:bg-secondary-dull transition rounded-full font-medium cursor-pointer'
     >
       Login</button>):(
 
