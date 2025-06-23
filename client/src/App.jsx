@@ -7,7 +7,6 @@ import MovieDetails from './pages/MovieDetails';
 import SeatLayout from './pages/SeatLayout';
 import MyBooking from './pages/MyBooking';
 import Favorite from './pages/Favorite';
-
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -20,6 +19,7 @@ function App() {
       {!isAdminRoute && <Navbar />}
 
       <Routes>
+        
         <Route path='/' element={<Home />} />
         <Route path='/movies' element={<Movies />} />
         <Route path='/movies/:id' element={<MovieDetails />} />
